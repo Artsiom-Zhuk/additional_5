@@ -47,7 +47,7 @@ it('should check if brackets sequence is correct 9', () => {
 });
 
 it('should check if brackets sequence is not correct 10', () => {
-  assert.equal(check('|(|)', config5), false);
+  assert.equal(check('|(|)', config5), false); 
 });
 
 it('should check if brackets sequence is correct 11', () => {
